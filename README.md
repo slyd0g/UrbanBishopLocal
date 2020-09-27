@@ -1,4 +1,4 @@
-# DLLHijackTest
+# UrbanBishopLocal
 
 ![UrbanBishopLocal](https://raw.githubusercontent.com/slyd0g/UrbanBishopLocal/master/example.png)
 
