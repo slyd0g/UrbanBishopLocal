@@ -3,7 +3,7 @@
 ![UrbanBishopLocal](https://raw.githubusercontent.com/slyd0g/UrbanBishopLocal/master/example.png)
 
 ## Description
-A port of [FuzzySecurity's](https://twitter.com/FuzzySec) [UrbanBishop](https://github.com/FuzzySecurity/Sharp-Suite#urbanbishop) project for inline shellcode execution.
+A port of [FuzzySecurity's](https://twitter.com/FuzzySec) [UrbanBishop](https://github.com/FuzzySecurity/Sharp-Suite#urbanbishop) project for inline shellcode execution. The execution vector uses a delegate vs an APC on a suspended threat at ntdll!RtlExitUserThread in UrbanBishop
 
 - ```NtCreateSection``` is used to create a section object
 - ```NtMapViewOfSection``` creates a section view with RW permissions we can write shellcode to
